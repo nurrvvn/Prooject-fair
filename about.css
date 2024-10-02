@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Itim&family=Satisfy&display=swap');
+body{
+    min-height: 100vh;
+    background-color: #fdf0d5;
+}
+.container{
+    background-color: #fdf0d5;
+}
+header{
+    background-color: #780000;
+    width: 100%;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: "Prompt", sans-serif;
+    z-index: 1;
+    font-size: 17px;
+}
+
+.logo img{
+    height: 96px;
+    width: 210px;
+    float: left;
+    margin-left: 30px;
+}
+
+nav ul{
+    display: flex;
+    float: right;
+    list-style: none;
+    gap: 2.5rem;
+    margin-right: 40px;
+}
+
+nav ul li a{
+    line-height: 90px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover{
+    border-bottom: solid white;
+    color: rgba(244, 244, 244, 0.686);
+} 
+
+.abouttt{
+    position: absolute;
+    top: 160px;
+    left: 100px;
+}
+
+.abouttt h1{
+    font-size: 70px;
+    font-family: "Prompt", sans-serif;
+    color: #630202;
+}
+
+.info{
+    position: absolute;
+    top: 380px;
+    margin-left: 170px;
+}
+
+.inform{
+    background-color: #780000;
+    width: 1100px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #faf1e0db;
+    padding: 2.5rem;
+    line-height: 30px;
+    font-family: "Prompt", sans-serif;
+}
+
+.ourchefs{
+    position: absolute;
+    top: 900px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 30px;
+}
+
+.ourchefs img{
+    width: 340px;
+    box-shadow: 1px 1px 14px 1px black;
+    transition: 1s;
+}
+
+.ourchefs .imagee img {
+    height: 200px;
+}
+
+.ourchefs img:hover{
+    transform: scale(1.051);
+}
+
+
+.our h1{
+    position: absolute;
+    top: 760px;
+    margin-left: 570px;
+    font-size: 70px;
+    color: #780000;
+    font-family: "Prompt", sans-serif;
+}
+
+.chef p{
+    font-size: 18px;
+    color: #780000;
+    font-family: "Prompt", sans-serif;
+    text-align: center;
+}
+
+.ulll{
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 2.5rem;
+    margin-right: 40px;
+    padding-bottom: 3rem;
+}
+
+.ulll li a{
+    line-height: 90px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    position: absolute;
+    top: 1500px;
+    width: 100%;
+    background-color: #780000;
+    height: 400px;
+    font-family: "Prompt", sans-serif;
+    font-size: 17px;
+}
+
+.tel{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    font-family: "Prompt", sans-serif;
+}
+
+.number{
+    position: absolute;
+    top: 228px;
+    left: 290px;
+    color: #f7eeddca;
+}
+
+.since{
+    position: absolute;
+    top: 228px;
+    right: 70px;
+    color: #fcf0d9c9;
+}
+
+@media (max-width: 768px) {
+    header{
+        height: 117px;
+    }
+
+    .logo img{
+        height: 86px;
+        width: 96px;
+        float: left;
+        margin-left: 0px;
+        margin-top: 4px;
+    }
+
+    nav ul{
+        display: flex;
+        float: right;
+        list-style: none;
+        gap: 1rem;
+        margin-right: 70px;
+    }
+}
+
+@media (max-width: 480px) {
+    header{
+        height: 58px;
+        width: 100%;
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    body{
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .logo img{
+        height: 45px;
+        width: 80px;
+        float: left;
+    }
+
+    nav ul{
+        display: flex;
+        float: right;
+        gap: 1.5rem;
+        position: absolute;
+        top: 13px;
+        left: 98px;
+        font-size: 14px;
+    }
+
+    nav ul li a{
+        line-height: 43px;
+    }
+
+    .abouttt{
+        position: absolute;
+        top: 116px;
+        left: 15px;
+    }
+
+    .abouttt h1{
+        font-size: 60px;
+    }
+
+    .info{
+        position: absolute;
+        top: 320px;
+        margin-left: 0;
+    }
+    
+    .inform{
+        background-color: #780000;
+        width: 370px;
+        height: 680px;
+        padding: 2rem;
+        font-size: 20px;
+    }
+
+    .ourchefs{
+        position: absolute;
+        top: 1430px;
+        left: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 23px;
+    }
+
+    .ourchefs img{
+        width: 370px;
+        box-shadow: 1px 1px 14px 1px black;
+        transition: 1s;
+        height: 420px;
+    }
+
+    .our h1{
+        position: absolute;
+        top: 1250px;
+        margin-left: 60px;
+        font-size: 60px;
+    }
+    
+    footer{
+        position: absolute;
+        top: 3600px;
+        width: 440px;
+        height: 300px;
+        font-size: 17px;
+    }
+
+    .tel{
+        margin-left: 30px;
+        display: flex;
+        flex-direction: row;
+        font-family: "Prompt", sans-serif;
+    }
+    
+    .number{
+        position: absolute;
+        top: 230px;
+        left: 17px;
+        color: #f7eeddca;
+        font-size: 13px;
+    }
+    
+    .since{
+        position: absolute;
+        top: 200px;
+        left: 17px;
+        color: #fcf0d9c9;
+        font-size: 13px;
+    }
+
+    .ulll{
+        padding-top: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 1rem;
+        margin-right: 40px;
+        padding-bottom: 3rem;
+    }
+    
+    .ulll li a{
+        line-height: 90px;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        font-size: 13px;
+    }
+
+    .tel .logo img{
+        position: absolute;
+        top: 130px;
+        width: 120px;
+        height: 60px;
+    }
+}
+
+
+
+
+
+
+
